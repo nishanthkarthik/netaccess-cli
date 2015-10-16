@@ -1,0 +1,3 @@
+[submodule "netaccess-infiauth"]
+	path = netaccess-infiauth
+	url = https://github.com/nishanthkarthik/netaccess-infiauth.git
