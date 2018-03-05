@@ -1,0 +1,7 @@
+[Unit]
+Description=netaccess - authenticates iitm firewall for internet access
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c '/usr/local/bin/netaccess-file /etc/systemd/system/netaccess.service.d/netaccess.cfg'
+
